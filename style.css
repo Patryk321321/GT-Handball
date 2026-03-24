@@ -2,12 +2,10 @@
     margin:0;
     box-sizing: border-box;
 }
-html{
-    
-}
 body{
     background-color: #F2ECE4;
     color:#243773; 
+    min-height: 2000px;
 }
 .logo__img{
     mix-blend-mode: multiply;
@@ -34,7 +32,13 @@ body{
     right: 8px;
 }
 
-
+.aktualnosci__button{
+    background-color: chartreuse;
+    color:black;
+    position: fixed;
+    top: 50px;
+    right: 8px;
+}
 
 
 
