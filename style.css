@@ -40,7 +40,13 @@ body{
     right: 8px;
 }
 
-
+.przeszlosc__button{
+    background-color: #D9564A;
+    color:black;
+    position:fixed;
+    top:100px;
+    right: 8px;
+}
 
 
 
