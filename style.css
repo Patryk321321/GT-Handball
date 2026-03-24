@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    
+}
+body{
+    background-color: #F2ECE4;
+    color:#243773; 
+}
+.logo__img{
+    mix-blend-mode: multiply;
+    width: 125px;
+    height: 125px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    align-items: center;
+    
+}
+.button{
+    text-decoration: none;
+    background-color: #3C56A6;
+    color: #F2ECE4;
+    padding:8px;
+    border-radius: 23456px;
+}
+.header__button{
+    position:fixed;
+    top: 8px;
+    right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #243773
+#3C56A6
+#F2ECE4
+#F2522E
+#D9564A */
