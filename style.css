@@ -25,6 +25,7 @@ body{
     color: #F2ECE4;
     padding:8px;
     border-radius: 23456px;
+    transition: 300ms;
 }
 .header__button{
     position:fixed;
@@ -38,6 +39,7 @@ body{
     position: fixed;
     top: 50px;
     right: 8px;
+    --brightness:150%;
 }
 
 .przeszlosc__button{
@@ -47,9 +49,30 @@ body{
     top:100px;
     right: 8px;
 }
-
-
-
+.button:hover{
+    filter: brightness(var(--brightness, 130%));
+}
+.button:active{
+    scale: 80%;
+    opacity: 50%;
+}
+.tekst::first-letter{
+    font-size: ;
+    color: ;
+}
+.sekcja__linki__img{
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    align-items: end;
+    display: flex;
+}
+.sekcja__linki{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
 
 
 
