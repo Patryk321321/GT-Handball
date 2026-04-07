@@ -55,11 +55,12 @@ body{
 .button:active{
     scale: 80%;
     opacity: 50%;
+    translate: 23px -12px;
 }
-.tekst::first-letter{
+/* .tekst::first-letter{
     font-size: ;
     color: ;
-}
+} */
 .sekcja__linki__img{
     object-fit: cover;
     width: 150px;
@@ -72,8 +73,17 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
+    justify-content: end;
 }
-
+/* .dialog{
+    position: fixed;
+    background: #D9564A;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    rotate: 180deg;
+    transform:translate(-50%,-50%) rotate(180deg);
+} */
 
 
 
