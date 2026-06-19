@@ -6,7 +6,14 @@ body{
     background-color: #F2ECE4;
     color:#243773; 
     min-height: 2000px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
 }
+h2,h1,h3{
+    font-family: "Rammetto One", sans-serif;
+    font-style: italic;
+}
+
 .logo__img{
     mix-blend-mode: multiply;
     width: 125px;
@@ -31,8 +38,11 @@ body{
     position:fixed;
     top: 8px;
     right: 8px;
+    
 }
-
+.header__button:active{
+    translate: 23px -12px;
+}
 .aktualnosci__button{
     background-color: chartreuse;
     color:black;
@@ -55,7 +65,7 @@ body{
 .button:active{
     scale: 80%;
     opacity: 50%;
-    translate: 23px -12px;
+    
 }
 /* .tekst::first-letter{
     font-size: ;
@@ -73,7 +83,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-    justify-content: end;
 }
 /* .dialog{
     position: fixed;
@@ -84,6 +93,28 @@ body{
     rotate: 180deg;
     transform:translate(-50%,-50%) rotate(180deg);
 } */
+.sekcja{
+    margin-inline: 32px;
+}
+.sekcja + .sekcja{
+    margin-top:32px;
+}
+.sekcja--strona{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+}
+.sekcja--strona--button{
+    align-self: center;
+}
+
+@media (width>500px) {
+.sekcja--strona{
+    justify-content: space-between;
+    flex-direction: row;
+}
+}
 
 
 
